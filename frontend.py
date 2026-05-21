@@ -37,7 +37,7 @@ if st.button("Predict"):
     
     try:
         # Changed 'localhost' to '127.0.0.1' to avoid Windows connection bugs
-        response = requests.post("http://127.0.0.1:8000/predict", json=data, timeout=5)
+        response = requests.post("https://abdullahkamran426-income-predictor-backend.hf.space/predict", json=data, timeout=5)
         
         if response.status_code == 200:
             prediction = response.json().get("prediction")
