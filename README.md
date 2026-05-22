@@ -29,6 +29,7 @@ The solution includes:
   - `hours_per_week`
   - `native_country`
 - Returns a prediction indicating whether the income is expected to be `>50K` or `<=50K`.
+- Live backend hosted on Hugging Face at `https://abdullahkamran426-income-predictor-backend.hf.space/predict`.
 
 ### Frontend (`frontend.py`)
 - Uses Streamlit for a quick user interface.
